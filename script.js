@@ -1,5 +1,5 @@
 const timeContainer = document.getElementById("time-container");
-const BIRTH_DAY = "12-10-1815";
+const BIRTH_DAY = "08-12-1992";
 const BIRTH_DAY_DATE = new Date(BIRTH_DAY);
 const intlNumberFormatter = new Intl.NumberFormat("en-US");
 

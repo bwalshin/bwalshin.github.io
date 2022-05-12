@@ -67,7 +67,7 @@ a:hover {
 
 a {
   text-decoration: none;
-  color: var(--red)
+  color: var(--dark)
 }
 
 .navigation-items {
@@ -104,8 +104,7 @@ a {
 
 #projects,
 #skills,
-#contact,
-#resume {
+#contact {
   background-color: var(--light-grey);
   color: var(--dark);
   padding: 20px;
@@ -134,6 +133,14 @@ details {
 
 summary {
   list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+
+summary:hover {
+  color: var(--red);
+  transition: color 0.15s ease-in-out,
+  background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out,
+  box-shadow 0.15s ease-in-out;
 }
 
 footer {
@@ -204,6 +211,21 @@ a {
   background-color 0.15s ease-in-out,
   border-color 0.15s ease-in-out,
   box-shadow 0.15s ease-in-out;
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope-square:hover {
+  color: var(--red);
+  transition: color 0.15s ease-in-out,
+  background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out,
+  box-shadow 0.15s ease-in-out;
+}
+
+.links,
+.resume {
+  padding-top: 20px;
 }
 
 @media only screen and (max-width: 600px) {
