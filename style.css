@@ -28,16 +28,6 @@ body {
   margin: 20px;
 }
 
-.heart {
-  color: var(--red);
-}
-
-h2 {
-  font-family: 'Lato', sans-serif;
-  margin: 0;
-  margin-bottom: 12px;
-}
-
 body {
   font-family: 'Lato', sans-serif;
   margin: 0;
@@ -46,6 +36,16 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+}
+
+.heart {
+  color: var(--red);
+}
+
+h2 {
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  margin-bottom: 12px;
 }
 
 nav {
@@ -235,6 +235,11 @@ a {
       padding: 16px 0;
       flex-wrap: wrap;
       justify-content: space-around;
+    }
+
+    .navigation-items {
+      align-items: center;
+      margin: 0;
     }
 
     .portrait {
