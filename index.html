@@ -1,115 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
+  <head>
+    <meta charset="UTF-8">
+    <title>Brandon Walshin Profile Card</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Brandon Walshin Portfolio </title>
-    <link rel="stylesheet" href="./style.css" />
-    <link rel="stylesheet" href="./all.css" />
-    <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
-</head>
-
-<body>
-    <nav>
-        <h2 id="logo">Brandon Walshin</h2>
-        <ul class="navigation-items">
-            <li class="navigation-item"><a href="index.html#about-me"> About&nbsp;Me </a></li>
-            <li class="navigation-item"><a href="index.html#projects"> Projects </a></li>
-            <li class="navigation-item"><a href="index.html#skills"> Skills </a></li>
-            <li class="navigation-item"><a href="./contact.html"> Contact </a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section id="about-me">
-            <div class="about-me-container">
-                <img src="https://github.com/bwalshin/bwalshin.github.io/blob/master/images/picture-of-me.jpeg?raw=true" alt="A cartoon photo of Brandon Walshin" class="portrait" />
-                <div class="about-me-text-container">
-                    <p>
-                        I am a great problem solver, and I use objectivity, vision, and pragmatism, to approach solutions to a challenge.
-                    </p>
-                    <p>
-                        I like to work in learning and challenging environment, utilizing my skills and knowledge and contribute positively to my personal growth as well as the growth of the organization.
-                    </p>
-                    <p>
-                        I like to use my experiences and skills in solving problems in a creative manner to contribute to the continued growth and success of the organization and its clients.
-                </p>
-                <p>
-                    Fun fact! I've been programing for <span id="time-container">0</span> seconds!
-                </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects">
-            <h2> Projects </h2>
-            <details class="project">
-                <summary class="project-title">
-                    <h3> Reddit Minimal </h3>
-                </summary>
-                <!-- <a href="https://github.com/bwalshin/reddit-minimal"><img src="https://gh-card.dev/repos/bwalshin/reddit-minimal.svg?fullname="></a> -->
-                <img class="project-image" src="https://github.com/bwalshin/reddit-minimal/blob/main/images/reddit-app_final.png?raw=true" alt=""aa">
-                <p class="project-description">
-                    The project was a task given by Codecademy being a part of their full-stack engineer course path. The goal of the project was to showcase all previews skills and technologies learned until this point on the path (HTML / CSS, JavaScript, React, Redux, Jest, Enzyme and Selenium, Git and Github Projects, Command line, Wireframes).
-                <br></br>
-                    The project is using Reddit JSON API to get the data from Reddit.
-                </p>
-                <a href="https://github.com/bwalshin/reddit-app/"target="_blank">More on Github</a>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                    <h3> Project Status Report </h3>
-                </summary>
-                <img class="project-image"
-                    src="https://github.com/bwalshin/Project-Status-Report/blob/main/Project%20Status%20Report%20Screenshot.png?raw=true" alt="" aa">
-                <p class="project-description">
-                    The goal of this project was to consolidate information for our corporate project management system (Workfront) and create a one page printable report that Managers can review with customers about current project information from within the tool.
-                    This report was built using HTML, CSS, Javascript, and Angular.
-                <br></br>
-                    The project is using the Workfront API to retreive data for the report.
-                </p>
-                <a href="https://github.com/bwalshin/Project-Status-Report" target="_blank">More on Github</a>
-            </details>
-            <details class="project">
-                <summary class="project-title">
-                    <h3> Project Delivery Index </h3>
-                </summary>
-                <img class="project-image"
-                    src="https://github.com/bwalshin/Project-Delivery-Index/blob/main/images/DI%20Report.png?raw=true"
-                    alt="" aa">
-                <p class="project-description">
-                    I built a custom project status report to link with our Workfront system using Javascript and APIs which helps keep our
-                    project managers stay productive and save them a collective of ~100+ hours per week per customer.
-                    <br></br>
-                    The project is using the Workfront API to retreive data for the report.
-                </p>
-                <a href="https://github.com/bwalshin/Project-Delivery-Index" target="_blank">More on Github</a>
-            </details>
-        </section>
-
-        <section id="skills">
-            <h2> Skills </h2>
-            <div id="skills-container">
-                <i class="fab fa-html5"></i>
-                <i class="fab fa-css3-alt"></i>
-                <i class="fab fa-js"></i>
-                <i class="fab fa-git"></i>
-                <i class="fab fa-chrome"></i>
-                <i class="fas fa-terminal"></i>
-                <i class="fas fa-universal-access"></i>
-                <i class="fab fa-github"></i>
-                <i class="fab fa-react"></i>
-                <i class="fab fa-npm"></i>
-                <i class="fab fa-node"></i>
-            </div>
-        </section>
-    </main>
-
-    <footer>Made with <span class="heart">♥</span> in Seattle</footer>
-    <script src="./script.js"></script>
-</body>
+  <body>
+      <div id="root">
+      </div>
+  </body>
 </html>
 
-
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react/17.0.2/umd/react.production.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.2/umd/react-dom.production.min.js'></script>
+<script src="./script.js"></script>
 
