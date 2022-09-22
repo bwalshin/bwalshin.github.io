@@ -140,7 +140,7 @@ function Footer() {
     { id: 'contact-links' } /*#__PURE__*/,
     React.createElement(
       'a',
-      { href: '#', target: '_blank' } /*#__PURE__*/,
+      { href: '#',} /*#__PURE__*/,
       React.createElement('i', { className: 'fa-brands fa-html5 fa-xl' })
     ) /*#__PURE__*/,
 
@@ -148,7 +148,6 @@ function Footer() {
       'a',
       {
         href: '#',
-        target: '_blank',
       } /*#__PURE__*/,
       React.createElement('i', { class: 'fa-brands fa-css3-alt fa-xl' })
     ) /*#__PURE__*/,
@@ -157,7 +156,6 @@ function Footer() {
       'a',
       {
         href: '#',
-        target: '_blank',
       } /*#__PURE__*/,
       React.createElement('i', { className: 'fa-brands fa-js fa-xl' })
     ) /*#__PURE__*/,
@@ -166,7 +164,6 @@ function Footer() {
       'a',
       {
         href: '#',
-        target: '_blank',
       } /*#__PURE__*/,
       React.createElement('i', { className: 'fa-brands fa-react fa-xl' })
     ) /*#__PURE__*/,
@@ -175,7 +172,6 @@ function Footer() {
       'a',
       {
         href: '#',
-        target: '_blank',
       } /*#__PURE__*/,
       React.createElement('i', { className: 'fa-brands fa-node fa-xl' })
     )
