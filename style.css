@@ -217,6 +217,20 @@ p {
   line-height: 1.6em;
 }
 
+.calBody {
+  display: flex;
+  margin: 0 auto;
+}
+
+.iframeCal {
+  border: solid 1px #777;
+  width: 90vw;
+  height: 90vh;
+  justify-content: space-around;
+}
+
+
+
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   body {
