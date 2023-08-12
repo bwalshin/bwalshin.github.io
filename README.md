@@ -1,71 +1,76 @@
-# Getting Started with Create React App
+## Portfolio Website For Developers 💯
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**UPDATE:**
 
-## Available Scripts
 
-In the project directory, you can run:
+1. Wrote a detailed blog on [freeCodeCamp](https://www.freecodecamp.org/news/how-to-build-a-portfolio-site-with-nextjs-tailwindcss/), describing and explaining how I built this application from the ground up.
 
-### `npm start`
+2. Included the `constants` folder, where you can directly add your details and it'll get reflected throughout the application. No more customizations for the template required, just add your data and it'll reflect immediately.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Portfolio for developers is a simple and minimalistic website to showcase your skills and projects as a developer. The design is inspired by [Kevin Clark](https://kevinclark.ca). The website is completely Open Source, you can use it for whatever purpose you want.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![HomeGif](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/websitegif.gif)
 
-### `npm test`
+# Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Responsive layout, works well on both Mobile and Desktop
+- Dark mode support. Click buttons to toggle dark mode and light mode.
+- Clear React components and tailwind styling.
+- Exact sections that a developer needs to showcase their skills.
+- Clear call to actions.
 
-### `npm run build`
+# Pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+I've kept the pages as simple as possible. Only the required sections are included with minimal content.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Landing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/home.png)
 
-### `npm run eject`
+## About
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/about.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Projects
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/projects.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Experience
 
-## Learn More
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/experience.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contact
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Hompage](https://github.com/manuarora700/simple-developer-portfolio-website/blob/main/demo-images/contact.png)
 
-### Code Splitting
+# Tech Stack
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The website is built in my favourite Tech Stack and deployed on [Vercel](https://vercel.com)
 
-### Analyzing the Bundle Size
+- [Next.js](https://nextjs.org) for building React Components.
+- [tailwindcss](https://tailwindcss.com) for styling.
+- [React Rough Notation](https://roughnotation.com) for Hero section highlighting.
+- [Vercel](https://vercel.com) for deployments and CI/CD.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# Usage
 
-### Making a Progressive Web App
+- Clone the repository using `git clone https://github.com/manuarora700/simple-developer-portfolio-website.git`
+- Install all the modules by using `npm i` or `npm install` or `yarn`
+- Run the local development server by using `npm run dev` or `yarn dev`
+- Make the required edits and deploy to YOUR GitHub repo for CI/CD.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Deployment
 
-### Advanced Configuration
+Deployment can be done in 3 easy steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Login to [Vercel](https://vercel.com) or signup for an account if you don't have one.
+- Create a `New Project` and select YOUR GitHub repository of the portfolio project.
+- Wait for Vercel to deploy your project to production.
 
-### Deployment
+# License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This template is completely open source and free to use. Use it for client projects or your own portfolio project. Give me credits at the footer (If you wish, it'll help me a lot :)).
 
-### `npm run build` fails to minify
+# Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
+<a href="https://www.buymeacoffee.com/manuarora" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
