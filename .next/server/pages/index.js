@@ -14,7 +14,7 @@ __webpack_require__.r(__webpack_exports__);
 // EXPORTS
 __webpack_require__.d(__webpack_exports__, {
   "default": () => (/* binding */ Home),
-  "getServerSideProps": () => (/* binding */ getServerSideProps)
+  "getStaticProps": () => (/* binding */ getStaticProps)
 });
 
 // EXTERNAL MODULE: external "react/jsx-runtime"
@@ -405,7 +405,7 @@ function Home({ repositories  }) {
         ]
     });
 }
-const getServerSideProps = async ()=>{
+async function getStaticProps() {
     console.log(process.env.GITHUB_AUTH_TOKEN);
     let token = process.env.GITHUB_AUTH_TOKEN;
     const repositories = await lib_getLatestRepos(data/* default */.Z, token);
@@ -415,7 +415,7 @@ const getServerSideProps = async ()=>{
             repositories
         }
     };
-};
+}
 
 
 /***/ }),
